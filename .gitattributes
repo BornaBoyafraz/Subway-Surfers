@@ -3,3 +3,40 @@
 *.exe filter=lfs diff=lfs merge=lfs -text
 *.dll filter=lfs diff=lfs merge=lfs -text
 *.pak filter=lfs diff=lfs merge=lfs -text
+# Unreal Engine 5.5.4 Git Ignore
+
+# Binaries and Build files
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+*.VC.db
+*.opensdf
+*.sdf
+*.suo
+*.xcodeproj
+*.xcworkspace
+*.xcuserstate
+
+# IDE files
+.vscode/
+.idea/
+*.sln
+*.vcxproj*
+*.user
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Crash/Backup
+*.log
+*.dmp
+*.tmp
+*.bak
+
+# Generated plugins/modules
+*.Generated.cs
+
+
